@@ -1,0 +1,27 @@
+{
+    "name":"riverline/dynamodb-bundle",
+    "description":"Symfony2 bundle for riverline/dynamodb library",
+    "keywords":["symfony2","bundle","dynamodb","aws","amazon"],
+    "type":"library",
+    "license":"MIT",
+    "authors":[
+        {
+            "name":"Romain Cambien",
+            "email":"romain@riverline.fr"
+        },
+        {
+            "name":"Riverline",
+            "homepage":"http://www.riverline.fr"
+        }
+    ],
+    "homepage": "https://github.com/rcambien/riverline-dynamodb-bundle",
+    "require":{
+        "php":">=5.3.5",
+        "riverline/dynamodb": ">=1.0.0"
+    },
+    "autoload":{
+        "psr-0":{
+            "Riverline\\DynamoDBBundle": "src/"
+        }
+    }
+}

@@ -1,0 +1,10 @@
+parameters:
+
+services:
+    riverline_dynamodb:
+        class: Riverline\DynamoDB\Connection
+        arguments:
+          - %riverline_dynamodb.access_key%
+          - %riverline_dynamodb.secret_key%
+          - %riverline_dynamodb.cache_handler%
+          - %riverline_dynamodb.region%
